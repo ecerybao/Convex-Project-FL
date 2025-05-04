@@ -1,14 +1,14 @@
 # Federated Optimization
 
-This project is a course assignment for Convex Optimization, implementing the federated learning algorithm (FedAvg) as described in the paper [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629). The implementation focuses on the convex optimization aspects of distributed machine learning.
+This project is a course assignment for Convex Optimization, implementing the federated learning algorithm (FedAvg) as described in the paper [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629). The implementation focuses on the optimization aspects of distributed machine learning.
 
 ## Project Overview
 
-This project demonstrates the application of convex optimization in distributed machine learning through federated learning. It implements:
+This project demonstrates the application of optimization in distributed machine learning through federated learning. It implements:
 
-1. **Centralized Training**: Standard neural network training with convex loss functions
+1. **Centralized Training**: Standard neural network training with loss functions
 2. **Federated Learning**: Distributed training with model aggregation
-3. **Convex Optimization Components**:
+3. **Optimization Components**:
    - Gradient descent optimization
    - Model parameter averaging
    - Loss function minimization
@@ -53,9 +53,9 @@ Key parameters:
 
 Note: For CIFAR-10, `num_channels` must be set to 3.
 
-## Convex Optimization Concepts
+## Optimization Concepts
 
-This implementation demonstrates several key concepts in convex optimization:
+This implementation demonstrates several key concepts in optimization:
 1. Distributed optimization
 2. Gradient-based methods
 3. Parameter averaging
